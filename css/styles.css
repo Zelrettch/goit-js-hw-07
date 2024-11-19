@@ -1,0 +1,77 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  color: #434455;
+  background-color: #ffffff;
+  line-height: 1.5;
+  min-height: 100vh;
+
+  font-size: 16px;
+  letter-spacing: 0.04em;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+h2 {
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+a {
+  text-decoration: none;
+  color: currentcolor;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+button {
+  display: block;
+  cursor: pointer;
+  padding: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  max-width: 440px;
+  margin: 0 auto;
+}
+
+.list {
+  padding: 24px;
+}
+
+.list .item {
+  background-color: #f6f6fe;
+  border-radius: 8px;
+  padding: 16px;
+}
+
+.list .item:not(:last-child) {
+  margin-bottom: 24px;
+}
+
+.list .item ul li {
+  padding: 8px 16px;
+  border-radius: 4px;
+  border: 1px solid #808080;
+}
+
+.list .item ul li:not(:last-child) {
+  margin-bottom: 16px;
+}
