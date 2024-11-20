@@ -55,5 +55,55 @@
         </ul>
       </div>
     </section>
+    <section class="gallery-section">
+      <div class="container">
+        <ul class="gallery"></ul>
+      </div>
+    </section>
+    <section class="text-field-section">
+      <div class="container">
+        <input
+          type="text"
+          id="name-input"
+          placeholder="Please enter your name"
+        />
+        <h1>Hello, <span id="name-output">Anonymous</span>!</h1>
+      </div>
+    </section>
+    <section class="form-section">
+      <div class="container">
+        <form class="login-form">
+          <label>
+            Email
+            <input type="email" name="email" />
+          </label>
+          <label>
+            Password
+            <input type="password" name="password" />
+          </label>
+          <button type="submit" class="blue-button">Log in</button>
+        </form>
+      </div>
+    </section>
+    <section class="widget-section">
+      <div class="container">
+        <div class="widget">
+          <p>Background color: <span class="color">-</span></p>
+          <button type="button" class="change-color blue-button">
+            Change color
+          </button>
+        </div>
+      </div>
+    </section>
+    <section class="collection-section">
+      <div class="container">
+        <div class="controls-block" id="controls">
+          <input type="number" min="1" max="100" step="1" value="1" />
+          <button class="blue-button" type="button" data-create>Create</button>
+          <button class="red-button" type="button" data-destroy>Destroy</button>
+        </div>
+        <div id="boxes"></div>
+      </div>
+    </section>
   </body>
 </html>
