@@ -203,6 +203,10 @@ img {
 
 .collection-section .container {
   padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
 }
 
 .controls-block {
@@ -213,7 +217,6 @@ img {
   background-color: #f6f6fe;
   border-radius: 8px;
   width: 486px;
-  margin: 0 auto;
 }
 
 .controls-block input[type="number"] {
@@ -232,4 +235,14 @@ img {
 .red-button:hover,
 .red-button:focus {
   background-color: #ff7070;
+}
+
+.boxes-block {
+  display: inline-flex;
+
+  flex-wrap: wrap;
+  gap: 44px;
+  background-color: #f6f6fe;
+  padding: 32px;
+  border-radius: 8px;
 }
