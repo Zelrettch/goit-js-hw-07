@@ -239,7 +239,7 @@ img {
 
 .boxes-block {
   display: inline-flex;
-
+  justify-content: space-around;
   flex-wrap: wrap;
   gap: 44px;
   background-color: #f6f6fe;
